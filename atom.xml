@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>雨落</title>
+  
+  <subtitle>沉淀，分享。</subtitle>
+  <link href="https://rainylog.com/atom.xml" rel="self"/>
+  
+  <link href="https://rainylog.com/"/>
+  <updated>2020-12-29T13:35:51.529Z</updated>
+  <id>https://rainylog.com/</id>
+  
+  <author>
+    <name>Rainy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git 与 npm 的配置隔离</title>
+    <link href="https://rainylog.com/post/npm-git-config/"/>
+    <id>https://rainylog.com/post/npm-git-config/</id>
+    <published>2020-03-15T08:52:00.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;2020.12.29 更新&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发现对于 npm 的配置，官方提供了工具 &lt;code&gt;npmrc&lt;/code&gt; 来方便的管理。文档参见 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="技术" scheme="https://rainylog.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="git" scheme="https://rainylog.com/tags/git/"/>
+    
+    <category term="前端" scheme="https://rainylog.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="npm" scheme="https://rainylog.com/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>过去某一刻</title>
+    <link href="https://rainylog.com/post/sometime/"/>
+    <id>https://rainylog.com/post/sometime/</id>
+    <published>2020-02-08T13:00:00.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;哒哒哒哒。&lt;br&gt;思绪慌乱，节奏跳跃。&lt;br&gt;手指，失去往日的严肃。  &lt;/p&gt;
+&lt;p&gt;幸而，我可以故作镇静，&lt;br&gt;代码流转，却也无法重建心情。 </summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://rainylog.com/categories/diary/"/>
+    
+    
+    <category term="诗" scheme="https://rainylog.com/tags/%E8%AF%97/"/>
+    
+    <category term="心情" scheme="https://rainylog.com/tags/%E5%BF%83%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VueConf 2019 随感</title>
+    <link href="https://rainylog.com/post/vueconf-2019/"/>
+    <id>https://rainylog.com/post/vueconf-2019/</id>
+    <published>2019-06-09T07:47:56.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一月前同事问要不要去参加 VueConf，说尤雨溪会来，想来从 17 年年底参加 2017 开源年会后就没有再去什么技术大会，也想去见识下各路大神。遂购票，端午佳节前往，还是有收获的。&lt;/p&gt;
+&lt;h2 id=&quot;大会议题&quot;&gt;&lt;a href=&quot;#大会议题&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://rainylog.com/categories/diary/"/>
+    
+    <category term="技术" scheme="https://rainylog.com/categories/diary/tech/"/>
+    
+    
+    <category term="技术" scheme="https://rainylog.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="前端" scheme="https://rainylog.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>monorepo 项目改造反思</title>
+    <link href="https://rainylog.com/post/monorepo-think/"/>
+    <id>https://rainylog.com/post/monorepo-think/</id>
+    <published>2019-06-07T07:10:40.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在(前)公司做的最后一件事情，就是做项目改造，把原有的前端工程进行模块拆分。原来的前端工程基于 dva1.x 构建，整个项目非常庞大，不好维护，运行起来耗时，热编译也非常慢。促成拆分的重要原因是平台代码和业务代码由两个团队来做，平台代码</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="前端" scheme="https://rainylog.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 使用 circle ci 部署</title>
+    <link href="https://rainylog.com/post/hexo-circle/"/>
+    <id>https://rainylog.com/post/hexo-circle/</id>
+    <published>2019-04-23T14:11:09.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近 github 发邮件提醒我大学时白嫖的两年 github 会员到期了，提醒我降级，降级现在好像也没太大影响，毕竟微软爸爸收购</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="hexo" scheme="https://rainylog.com/tags/hexo/"/>
+    
+    <category term="ci" scheme="https://rainylog.com/tags/ci/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>夜与梦</title>
+    <link href="https://rainylog.com/post/night-dream/"/>
+    <id>https://rainylog.com/post/night-dream/</id>
+    <published>2019-04-21T18:00:00.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;无法入梦，仰视，一片静谧深邃。&lt;br&gt;那轰鸣，&lt;br&gt;比不上倏忽自然的风。&lt;/p&gt;
+&lt;p&gt;我也曾爱上航行，&lt;br&gt;以自由为浪，以浪漫作桨。&lt;br&gt;最后竟沉溺于此处，&lt;br&gt;不再出港。&lt;/p&gt;
+&lt;p&gt;躲到了梦里，&lt;br&gt;幻想乡，万人空巷。&lt;br&gt;逃往平凡，&lt;br&gt;逃亡。&lt;/p</summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://rainylog.com/categories/diary/"/>
+    
+    
+    <category term="诗歌" scheme="https://rainylog.com/tags/%E8%AF%97%E6%AD%8C/"/>
+    
+    <category term="工作" scheme="https://rainylog.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 子模块的使用姿势</title>
+    <link href="https://rainylog.com/post/git-submodule/"/>
+    <id>https://rainylog.com/post/git-submodule/</id>
+    <published>2019-03-19T15:01:35.000Z</published>
+    <updated>2020-12-29T13:35:51.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于需要在项目中内嵌另一个项目的代码，而两个项目是由各自的 git 仓库分别管理的，手动复制更新异常繁琐，因而可以使用 git 的子模块来解决该问题。&lt;/p&gt;
+&lt;h2 id=&quot;引入子模块&quot;&gt;&lt;a href=&quot;#引入子模块&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="git" scheme="https://rainylog.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js 零散记录</title>
+    <link href="https://rainylog.com/post/js-site/"/>
+    <id>https://rainylog.com/post/js-site/</id>
+    <published>2019-01-12T15:19:48.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;用 &lt;a href=&quot;https://github.com/LoeiFy/Mirror&quot;&gt;Mirror&lt;/a&gt; 搭建了一个使用 github issue 作为生成器的博客。好处在于省去了发布流程，提交 issue</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="站点" scheme="https://rainylog.com/tags/%E7%AB%99%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS7 单节点 k8s 部署拾遗</title>
+    <link href="https://rainylog.com/post/install-k8s-on-centos7/"/>
+    <id>https://rainylog.com/post/install-k8s-on-centos7/</id>
+    <published>2018-11-18T06:24:24.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文讲使用 kubeadm 来安装 k8s，环境为 CentOS 7.5。&lt;/p&gt;
+&lt;h2 id=&quot;kubeadm-安装&quot;&gt;&lt;a href=&quot;#kubeadm-安装&quot; class=&quot;headerlink&quot; title=&quot;kubeadm 安装&quot;&gt;&lt;/a&gt;kubeadm</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="k8s" scheme="https://rainylog.com/tags/k8s/"/>
+    
+    <category term="docker" scheme="https://rainylog.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记本服务器改造踩坑</title>
+    <link href="https://rainylog.com/post/laptop-to-server/"/>
+    <id>https://rainylog.com/post/laptop-to-server/</id>
+    <published>2018-11-17T11:16:14.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;公司入职发了台 16G 内存的惠普笔记本，买了 Mac 之后一直闲置，在拖延许久之后终于抽时间将其换成 CentOS，来搞一些自己的服务放上面，毕竟 16G 内存还是很可观的配置。本篇讲述折腾过程。&lt;/p&gt;
+&lt;h2 id=&quot;安装-CentOS&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="Linux" scheme="https://rainylog.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雨落</title>
+    <link href="https://rainylog.com/post/rainylog-upgrade-element/"/>
+    <id>https://rainylog.com/post/rainylog-upgrade-element/</id>
+    <published>2018-09-09T01:51:19.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;花了几天时间，将博客主题更新了下。一方面的原因是 NexT 主题已经烂大街了，作为 Hexo 最多 star 的主题，用的人多，且脱离 iissnan 的维护变为 theme-next</summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://rainylog.com/categories/diary/"/>
+    
+    
+    <category term="技术" scheme="https://rainylog.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>致橡树</title>
+    <link href="https://rainylog.com/post/zhi-xiang-shu/"/>
+    <id>https://rainylog.com/post/zhi-xiang-shu/</id>
+    <published>2018-08-19T10:38:42.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;
+我如果爱你——  
+绝不像攀援的凌霄花，  
+借你的高枝炫耀自己；  
+我如果爱你——  
+绝不学痴情的鸟儿，  
+为绿荫重复单调的歌曲；  
+也不止像泉源，  
+常年送来清凉的慰藉； </summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://rainylog.com/categories/diary/"/>
+    
+    
+    <category term="爱情" scheme="https://rainylog.com/tags/%E7%88%B1%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React 开发环境配置</title>
+    <link href="https://rainylog.com/post/react-dev-env/"/>
+    <id>https://rainylog.com/post/react-dev-env/</id>
+    <published>2018-04-24T01:33:37.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;create-react-app&quot;&gt;&lt;a href=&quot;#create-react-app&quot; class=&quot;headerlink&quot; title=&quot;create-react-app&quot;&gt;&lt;/a&gt;create-react-app&lt;/h2&gt;&lt;p&gt;使用官方提供的</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="前端" scheme="https://rainylog.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="React" scheme="https://rainylog.com/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Oracle RAC 备份方式</title>
+    <link href="https://rainylog.com/post/oracle-rac-backup/"/>
+    <id>https://rainylog.com/post/oracle-rac-backup/</id>
+    <published>2018-03-29T02:33:23.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;高可用 RAC 数据库中，通过 rman 备份数据库有两个问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如何保证备份在每个实例都能备份成功；&lt;/li&gt;
+&lt;li&gt;当一实例发生故障，如何保证其它实例能正常备份。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;版本-1-0&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="Oracle" scheme="https://rainylog.com/tags/Oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VS Code &amp; Python</title>
+    <link href="https://rainylog.com/post/python-env/"/>
+    <id>https://rainylog.com/post/python-env/</id>
+    <published>2018-03-28T09:32:51.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;对于任何一门语言来讲，熟悉语法规范之后采用顺手的编辑器是必不可少的，编辑器可以提高效率，但也不能将时间浪费于寻找合适的编辑器上，比如折腾 vim 插件，如果是一个 vim 新手，惊讶于种种眼花缭乱的 vim</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="Python" scheme="https://rainylog.com/tags/Python/"/>
+    
+    <category term="编辑器" scheme="https://rainylog.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VMware 搭建 Oracle 12c RAC 纪要</title>
+    <link href="https://rainylog.com/post/vmware-rac/"/>
+    <id>https://rainylog.com/post/vmware-rac/</id>
+    <published>2018-03-26T02:17:04.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;安装 RAC 区别于普通单实例安装的特点在于网络和共享磁盘，VMware 搭建的关键点也在此。&lt;/p&gt;
+&lt;h2 id=&quot;分配共享磁盘&quot;&gt;&lt;a href=&quot;#分配共享磁盘&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="Oracle" scheme="https://rainylog.com/tags/Oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Oracle 杂记（18-03-21）</title>
+    <link href="https://rainylog.com/post/oracle-note-180321/"/>
+    <id>https://rainylog.com/post/oracle-note-180321/</id>
+    <published>2018-03-21T04:00:35.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;归档日志的三个路径&quot;&gt;&lt;a href=&quot;#归档日志的三个路径&quot; class=&quot;headerlink&quot; title=&quot;归档日志的三个路径&quot;&gt;&lt;/a&gt;归档日志的三个路径&lt;/h2&gt;&lt;p&gt;之前配置 RAC</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="运维" scheme="https://rainylog.com/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="Oracle" scheme="https://rainylog.com/tags/Oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android O 的 MIUI 如何安装谷歌服务</title>
+    <link href="https://rainylog.com/post/xiaomi-google-service/"/>
+    <id>https://rainylog.com/post/xiaomi-google-service/</id>
+    <published>2018-03-10T14:27:46.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;手上的 MI 6 收到了 Android 8.0 的稳定版推送，升级之后出现了一些问题。&lt;/p&gt;
+&lt;h2 id=&quot;MIUI-升级-Android-8-0-打开-Google-闪退&quot;&gt;&lt;a href=&quot;#MIUI-升级-Android-8-0-打开-Google-闪退&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://rainylog.com/categories/diary/"/>
+    
+    
+    <category term="Android" scheme="https://rainylog.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PDB 还我一个炸弹（PDB XML 恢复后续）</title>
+    <link href="https://rainylog.com/post/pdb-boom/"/>
+    <id>https://rainylog.com/post/pdb-boom/</id>
+    <published>2018-03-07T02:11:36.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前情提要：&lt;a href=&quot;https://rainylog.com/post/oracle-pdb-xml-recover/&quot;&gt;https://rainylog.com/post/oracle-pdb-xml-recover/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;按照前文所述，可以成功地将 pdb 插回 cdb 中，当我惊叹于仅凭一个 &lt;code&gt;DBMS_PDB.RECOVER&lt;/code&gt; 可以恢复时，却不知为后面的坑埋下伏笔…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="oracle" scheme="https://rainylog.com/tags/oracle/"/>
+    
+    <category term="数据库" scheme="https://rainylog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我欠 PDB 一个汤圆（记一次 Oracle PDB XML 恢复）</title>
+    <link href="https://rainylog.com/post/oracle-pdb-xml-recover/"/>
+    <id>https://rainylog.com/post/oracle-pdb-xml-recover/</id>
+    <published>2018-03-03T06:43:33.000Z</published>
+    <updated>2020-12-29T13:35:51.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Oracle 12c 起开始支持可插拔数据库(PDB)，这为数据库运维带来了很大便利。&lt;/p&gt;
+&lt;p&gt;然而……&lt;/p&gt;
+&lt;p&gt;某天晚上迁移数据，很开心的拔出插入拔出插入的过程中，一个不小心，把拔出的 XML 文件给删了！&lt;/p&gt;
+&lt;p&gt;当时我的表情是这样的：Σ(っ °Д</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://rainylog.com/categories/tech/"/>
+    
+    
+    <category term="oracle" scheme="https://rainylog.com/tags/oracle/"/>
+    
+    <category term="数据库" scheme="https://rainylog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+</feed>
